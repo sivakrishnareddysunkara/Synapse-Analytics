@@ -5,8 +5,14 @@
 		"workspaceName": {
 			"value": "synwstest3001test"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"synwstest3001test-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synwstest3001test.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://demosynwssg0123.dfs.core.windows.net/"
 		},
 		"synwstest3001test-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://demotestsyws15007.dfs.core.windows.net"
